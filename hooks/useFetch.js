@@ -12,7 +12,7 @@ const useFetch = (url, query, params, host) => {
       url: `${url}/${query}`,
       params: params,
       headers: {
-        'X-RapidAPI-Key': '91c6b6cf42mshf5f8aaa62860b8fp12f862jsnad49da89678f',
+        'X-RapidAPI-Key': ** API_KEY **,
         'X-RapidAPI-Host': `${host}`
       }
     };
